@@ -1,20 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>portfolio</title>
-  
-  <!-- fontawesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memberbase</title>
+    
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!-- css -->
-  <link rel="stylesheet" href="css/fonts.css">
-  <link rel="stylesheet" href="css/main.css">
-
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/card.css">
 
 </head>
 <body>
-  
+    <!-- navbar -->
+
+    <div class="navbar">
+        <div class="container nav">
+            <div class="cont">
+                <a href="#" class="logo"><i class="fa-solid fa-code"></i><span>dcodez</span></a>
+
+                <a onclick="sidenav()" id="hamb" class="ham">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+            <div id="siden" class="cont right">
+                <div class="search"><i class="fa-solid fa-magnifying-glass"></i><input type="search" name="search" id="search"></div>
+                <a href="#">All Resources</a>
+                <a href="#">Log In</a>
+                <a class="button" href="#">Free Sign Up</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- hero -->
+    <section id="hero">
+        <div class="container">
+            <div class="cont">
+                <h1>Access a library of free design resources</h1>
+                <p>The best resouces and books from the web, collected and curated for your reading.</p>
+                <a class="button" href="#">Get Access Now</a>
+            </div>
+            <div class="cont">
+                <img src="media/hero.svg" alt="hero">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- resources -->
+    <section id="resources">
+        <div class="container">
+            <div class="top">
+                <span class="title">Featured Resources</span>
+                <a href="#">See All Resources</a>
+            </div>
+
+            <div class="cards">
+                <a class="card">
+                    <div class="image1">
+                        <img src="media/img1.webp" alt="">
+                    </div>
+                    <div class="c-md">
+                        <h3>HTML/DHTML Advance</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum a accusamus ipsum! Ipsa, non reprehenderit!</p>
+                    </div>
+
+                </a>
+
+                <a class="card">
+                    <div class="image1">
+                        <img src="media/img1.webp" alt="">
+                    </div>
+                    <div class="c-md">
+                        <h3>HTML/DHTML Advance</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum a accusamus ipsum! Ipsa, non reprehenderit!</p>
+                    </div>
+
+                </a>
+
+                <a class="card">
+                    <div class="image1">
+                        <img src="media/img1.webp" alt="">
+                    </div>
+                    <div class="c-md">
+                        <h3>HTML/DHTML Advance</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum a accusamus ipsum! Ipsa, non reprehenderit!</p>
+                    </div>
+
+                </a>
+
+                <a class="card">
+                    <div class="image1">
+                        <img src="media/img1.webp" alt="">
+                    </div>
+                    <div class="c-md">
+                        <h3>HTML/DHTML Advance</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum a accusamus ipsum! Ipsa, non reprehenderit!</p>
+                    </div>
+
+                </a>
+            </div>
+            <div class="top1">
+                <a href="#">See All Resources</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- subscribe -->
+    <section id="subscribe">
+        <div class="container subs">
+            <h1>Get more great resources</h1>
+            <p>Get the latest design resources from across the web. Straight to your inbox.</p>
+            <form>
+                <input type="email" name="email" id="email" placeholder="abc@gmail.com">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section id="footer">
+        <div class="container">
+            <div class="foot">
+                <a href="#" class="logo">
+                    <i class="fa-solid fa-code"></i><span>dcodez</span>
+                </a>
+                <a href="mailto:deepak.rajputm24@gmail.com">deepak.rajputm24@gmail.com</a>
+                <a href="tel:+918847645179">+91 8847 645179</a>
+                
+            </div>
+            <div class="foot">
+                <h3>Top Courses</h3>
+                <a href="#">Course1</a>
+                <a href="#">Course1</a>
+                <a href="#">Course1</a>
+                <a href="#">Course1</a>
+                <a href="#">Course1</a>
+            </div>
+            <div class="foot">
+                <h3>Our Services</h3>
+                <a href="#">Course1</a>
+                <a href="#">Course1</a>
+                <a href="#">Course1</a>
+                <a href="#">Course1</a>
+            </div>
+        </div>
+        <div class="container">
+            <p>&copy;dcodez - 2023 all rights reserved</p>
+        </div>
+    </section>
+
+    <script>
+        function sidenav(){
+            document.getElementById("hamb").classList.toggle("active");
+            document.getElementById("siden").classList.toggle("active");
+        }
+    </script>
 </body>
 </html>
